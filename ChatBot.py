@@ -10,11 +10,11 @@ except FileNotFoundError:
 import pandas as pd
 import random
 import co
+chatbot=co.ChatBot()
 #lendo a base de dados principal
 try :
     df_perguntas = pd.read_excel("Perguntas.xlsx",engine = 'openpyxl')
     df_respostas = pd.read_excel("Respostas.xlsx",engine = 'openpyxl')
-
 except FileNotFoundError:
     print("Deu Erro")
 #organizando o chatbot
@@ -28,7 +28,7 @@ def central(usuario):
         return valor
     #caso a pergunta n esteja na base de dados ele acessara o cohere
     else:
-        return co.resposta_cohere(usuario)
+        return chatbot.resposta_cohere(pergunta=usuario)
 
 
 def saudar (usuario):

@@ -1,5 +1,6 @@
 from flask import render_template, Flask, request
 import ChatBot as cb
+import co
 app = Flask(__name__)
 
 @app.route('/')
@@ -9,7 +10,10 @@ def index():
 @app.route('/home', methods=['POST'])
 def home():
     entrada = request.form['entrada']
-    resposta = cb.central(entrada)
+    if entrada !=  "":
+        resposta = cb.central(entrada)
+    else:
+        resposta = 'Ops, você não digitou nada :('
     return render_template('index.html',resposta=resposta)
 
 if __name__ == '__main__':

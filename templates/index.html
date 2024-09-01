@@ -1,16 +1,40 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Bot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/style.css" rel="stylesheet">
 </head>
 <body>
-    <form action="/home" method="post">
-        <label for="entrada">Digite sua mensagem:</label>
-        <input type="text" name="entrada" placeholder="Diga um oi">
-        <button type="submit" value="enviar">Enviar</button>
-    </form>
-    <p>Reposta do bot: {{resposta}}</p>
+  <div class="container p-5 my-5 border">
+    <h1>Informe suas dúvidas para que possamos ajudá-lo. </h1>
+  </div>
+
+  <div class="chat">
+    <div id="chat-container">
+      <div id="sectionInicio">
+        <div class="chat-header">
+          <span>Início</span>
+        </div>
+        <div id="chat-box">
+          <div id="messages">
+            <strong><p>Seja bem-vindo!</p></strong>
+            <p>Aqui você pode tirar dúvidas sobre o projeto aprender sobre como funciona<br> e como isso pode ajudar na sociedade.</p>
+            <br>
+          </div>
+        </div>
+
+        <div class="chat-container">
+          <div class="input-container">
+            <input type="text" id="message-input" placeholder="Digite sua mensagem...">
+            <button id="send-button">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../static/main.js"></script>
 </body>
 </html>

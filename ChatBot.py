@@ -1,20 +1,12 @@
-
-import pandas as pd
-import random
-try :
-    df_perguntas = pd.read_excel("Perguntas.xlsx",engine = 'openpyxl')
-    df_respostas = pd.read_excel("Respostas.xlsx",engine = 'openpyxl')
-except FileNotFoundError:
-    print("Deu Erro")
 #importando bibliotecas necessarias
 import pandas as pd
 import random
 import co
 chatbot=co.ChatBot()
-#lendo a base de dados principal
+#tentar ler a base de dados no excel
 try :
-    df_perguntas = pd.read_excel("Perguntas.xlsx",engine = 'openpyxl')
-    df_respostas = pd.read_excel("Respostas.xlsx",engine = 'openpyxl')
+    df_perguntas = pd.read_excel("static/Perguntas.xlsx",engine = 'openpyxl')
+    df_respostas = pd.read_excel("static/Respostas.xlsx",engine = 'openpyxl')
 except FileNotFoundError:
     print("Deu Erro")
 #organizando o chatbot

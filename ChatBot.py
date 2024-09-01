@@ -11,6 +11,7 @@ except FileNotFoundError:
     print("Deu Erro")
 #organizando o chatbot
 def central(usuario):
+    #Valor serve para retornar a resposta a o main
     valor = ''
     if saudar(usuario) != None:
         valor = saudar(usuario)

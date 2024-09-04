@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function sendMessage(messageText) {
+    // envia os dados para o servidor no /homw vindo do forms
     fetch('/home', {
       method: 'POST',
       headers: {
@@ -41,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     .then(response => response.json())
     .then(data => {
-      addMessage(`CharBot: ${data}`, 'received');
+      addMessage(`Sonar: ${data}`, 'received');
     })
     .catch(error => console.error('Erro:', error));
   }

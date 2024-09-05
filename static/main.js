@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const msgerChat = document.querySelector(".msger-chat");
   const BOT_IMG = "bot.jpg";
   const PERSON_IMG = "usuario.png";
-  const BOT_NAME = "BOT";
+  const BOT_NAME = "SONAR";
   const PERSON_NAME = "Code mo";
 
   if (!msgerInput) {

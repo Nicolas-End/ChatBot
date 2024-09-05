@@ -2,39 +2,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../static/style.css" rel="stylesheet">
+  <title>ChatBot</title>
+  <script src="https://kit.fontawesome.com/8990a4aeb8.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <link href="../static/chatbot.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container p-5 my-5 border">
-    <h1>Informe suas dúvidas para que possamos ajudá-lo. </h1>
-  </div>
-
-  <div class="chat">
-    <div id="chat-container">
-      <div id="sectionInicio">
-        <div class="chat-header">
-          <span>Início</span>
-        </div>
-        <div id="chat-box">
-          <div id="messages">
-            <strong><p>Seja bem-vindo!</p></strong>
-            <p>Aqui você pode tirar dúvidas sobre o projeto aprender sobre como funciona<br> e como isso pode ajudar na sociedade.</p>
-            <br>
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        <img src="../static/imgs/Chatbot1.jpg" alt="" srcset="">
+        <p>ChatBot</p>
+      </div>
+    </header>
+    <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url(../static/imgs/bot.jpg);"></div>
+          <div class="msg-bubble">
+            <div class="msg-info">
+            <div class="msg-info-name">BOT</div>
+            <div class="msg-info time">10:45</div>
           </div>
-        </div>
-
-        <div class="chat-container">
-          <div class="input-container">
-            <input type="text" id="message-input" placeholder="Digite sua mensagem...">
-            <button id="send-button">Enviar</button>
+          <div class="msg-text">
+            Olá, seja bem vindo ao ChatBot! Vamos lá mande me uma menssagem.
           </div>
         </div>
       </div>
-    </div>
-  </div>
+      <div class="msg right-msg">
+        <div class="msg-img" style="background-image: url(../static/imgs/usuario.png);"></div>
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">User</div>
+            <div class="msg-info-time">10:45</div>
+          </div>
 
+          <div class="msg-text">
+            Voce pode trocar seu nome em JS section
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="msger-inputarea" action ="/home" method="POST">
+      <input type="text" name="msger-input" id="message-input" class="msger-input" placeholder="Faça uma pergunta...">
+      <button type="submit" class="msger-send-btn" ><i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+  </section>
   <script src="../static/main.js"></script>
 </body>
 </html>

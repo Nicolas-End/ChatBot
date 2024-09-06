@@ -1,5 +1,9 @@
 from flask import render_template, Flask, request, jsonify
-import ChatBot as cb
+import co 
+import json;
+chatbot=co.ChatBot()
+with open('Dados.json', 'r') as dc:
+        dados = json.load(dc)
 app = Flask(__name__)
 
 @app.route('/')
@@ -9,11 +13,7 @@ def index():
 @app.route('/home', methods=['POST'])
 def home():
     entrada = request.form['entrada']
-    if entrada !=  "":
-        resposta = cb.central(entrada)
-    else:
-        resposta = 'Ops, você não digitou nada :('
-    #Envia os dados para o arquivo javascript
+    resposta = chatbot.resposta_cohere(entrada,dados)
     return jsonify(resposta)
 
 if __name__ == '__main__':

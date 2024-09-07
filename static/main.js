@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
   const msgerForm = document.querySelector(".msger-inputarea");
   const msgerInput = document.querySelector(".msger-input");
   const msgerChat = document.querySelector(".msger-chat");
-  const BOT_IMG = "bot.jpg";
-  const PERSON_IMG = "usuario.png";
+  const BOT_IMG = "bot.webp";
+  const PERSON_IMG = "usuario.webp";
   const BOT_NAME = "SONAR";
   const PERSON_NAME = "Code mo";
 
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function addChat(name, img, side, text) {
     const msgHTML = `
       <div class="msg ${side}-msg">
-        <div class="msg-img" style="background-image: url(/static/imgs/${img});"></div>
+        <div class="msg-img" style="background-image: url(/static/imgs/${img});"loading="lazy"></div>
         <div class="msg-bubble">
           <div class="msg-info">
             <div class="msg-info-name">${name}</div>

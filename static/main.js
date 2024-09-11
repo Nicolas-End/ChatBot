@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const BOT_IMG = "bot.webp";
   const PERSON_IMG = "usuario.webp";
   const BOT_NAME = "SONAR";
-  const PERSON_NAME = "Code mo";
+  const PERSON_NAME = "USER";
 
   if (!msgerInput) {
     console.error("Elemento .msger-input não encontrado");

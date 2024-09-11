@@ -148,7 +148,7 @@ font-weight: bold;
 .msger-inputarea{
   display: flex;
   padding: 10px;
-  background: #edc18d;
+  background: var(--left-msg-bg);
   border-radius: 0px 0px 10px 10px;
 }
 

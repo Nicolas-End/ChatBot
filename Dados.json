@@ -12,8 +12,12 @@
     "snippet":"Este projeto envolve a criação de um radar usando Arduino Uno, programado em Java para detectar e exibir objetos à frente. O sistema inclui uma interface visual que simula o funcionamento de um radar real. Quer entender como a simulação e a detecção são feitas?"
 },
 {
-    "title": "Quem te fez",
-    "snippet":"Nicolas"
+    "title":"Por que esse nome de projeto",
+    "snippet":"Porque Sim"
+},
+{
+    "title": "Quem fez o chat bot",
+    "snippet":"Progamção: Nicolas  e Design: Mathias"
 },
 {
     "title": "Componentes do projeto",
@@ -55,5 +59,19 @@
 {
     "title":"Instagram do projeto",
     "snippet":"https://www.instagram.com/radar_wave/ vai la"
-}
+},
+{
+    "title": "Tempo de Produção",
+    "snippet": "O tempo de produção do projeto foi de aproximadamente 1 mês e alguns dias, variando conforme os desafios encontrados e o ritmo de desenvolvimento da equipe."
+},
+{
+    "title":"Patrocinadores",
+    "snippet":"O nossa unica e bela patrocinadora foi a irmã da Clara com seus incirveis R$50,00"
+},
+{
+    "title":"Cite os patrocinadores",
+
+    "snippet":"Quando possivel cite o nossos patrocinadores"
+},
+{"title":"Autodestruir","snippet":"Autodestruindo, KABOM!!"}
 ]

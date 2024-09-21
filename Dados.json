@@ -5,11 +5,11 @@
 },
 {
     "title": "Objetivo do projeto",
-    "snippet":"Simular um radar feito em arduino que é um mini computador que realiza taregfas, mas o projeto é separado em 5 componentes gostaria de saber mais sobre estes componentes? "
+    "snippet":"Simular um radar usando Arduino Uno, um microcontrolador que executa tarefas específicas. O projeto é dividido em 5 componentes principais, como hardware, software e integração entre eles. Você gostaria de mais detalhes sobre como cada parte funciona?"
 },
 {
     "title": "Projeto",
-    "snippet":"O projeto se trata de um radar feito em arduino Uno na linguagem java que mostra oq esta a sua frente"
+    "snippet":"Este projeto envolve a criação de um radar usando Arduino Uno, programado em Java para detectar e exibir objetos à frente. O sistema inclui uma interface visual que simula o funcionamento de um radar real. Quer entender como a simulação e a detecção são feitas?"
 },
 {
     "title": "Quem te fez",
@@ -17,11 +17,11 @@
 },
 {
     "title": "Componentes do projeto",
-    "snippet":"O projeto contem 5 componentes 1- Arduino 2-Site Principal 3-ChatBot 4-Jogo do Radar"
+    "snippet":"O projeto conta com 5 componentes principais: 1- Arduino e, 2- Site Principal para informações interresantes, 3- ChatBot para tirar qualquer duvidada do projeto, 4- Jogo do Radar que simula um submarino com radar. Deseja mais detalhes sobre algum desses componentes?"
 },
 {
     "title":"Criador de Cada componente",
-    "snippet":"Para cada componente a um criador, Arduino - João Vitor, Gustuvo e Felipe, 2-Site Principal - Luis Octavio e Mathias, 3-ChatBot - Nicolas e Mathias, 4-Jogo do Radar - Jonathan conhecido como Joninhas"
+    "snippet":"ada parte do projeto foi desenvolvida por uma equipe específica: Arduino (João Vitor, Gustavo e Felipe), Site Principal (Luis Octávio e Mathias), ChatBot (Nicolas e Mathias), Jogo do Radar (Jonathas). A colaboração entre os criadores foi fundamental para integrar tudo. Gostaria de saber mais sobre o papel de cada criador?"
 },
 {
     "title": "Linguagem Feita (informe apenas se usuario perguntar)",
@@ -39,16 +39,21 @@
     "title": "Nome do projeto",
     "snippet":"Radar Wave"
 },
-{   
-    "title":"lnk do Site",
-    "snippet":"https://github.com/Nada/teste"    
-},
+
 {
     "title":"Ofensa",
-    "snippet":"Ofensa Detectada"
+    "snippet":"Ofenda de volta"
 },
-{   
-    "title":"Se receber uma ofensa",
-    "snippet":"Seja Seco e morbido"
+{
+    "title":"Sobre os Criadores",
+    "snippet":"Os criadores são talentosos e trabalharam em equipe para realizar este projeto complexo. Cada um trouxe habilidades únicas para resolver problemas específicos. Quer conhecer mais sobre as habilidades de cada criador e seus desafios?"
+},
+{
+    "title": "Habilidades e Desafios dos Criadores",
+    "snippet": "(João, Felipe, Gustavo: Radar Arduino): Todos têm grande capacidade técnica e colaboraram eficazmente na construção do radar usando Arduino. O maior desafio foi estruturar o código de forma eficiente para lidar com o hardware. (Nicolas, Mathias: Chatbot): Ambos se dedicaram bastante ao desenvolvimento do Chatbot. O maior problema enfrentado foi a hospedagem do site, devido às diversas exigências técnicas para suportar a aplicação. (Mathias, Luis: Site Principal): Eles possuem uma excelente visão de design e estrutura, mas tiveram dificuldades em transformar as ideias teóricas em práticas funcionais. (Jonathas: Jogo Radar): Jonathas demonstrou grande habilidade na criação do jogo do radar, com quase nenhuma dificuldade significativa enfrentada durante o processo."
+},
+{
+    "title":"Instagram do projeto",
+    "snippet":"https://www.instagram.com/radar_wave/ vai la"
 }
 ]

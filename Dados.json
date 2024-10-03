@@ -1,23 +1,11 @@
 [
 {
-    "title": "Seu nome", 
-    "snippet": "Sonar"
+    "title": "Suas informações", 
+    "snippet": "Seu nome: Sonar, oq voce é: Chatbot"
 },
 {
     "title": "Objetivo do projeto",
-    "snippet":"Simular um radar usando Arduino Uno, um microcontrolador que executa tarefas específicas. O projeto é dividido em 5 componentes principais, como hardware, software e integração entre eles. Você gostaria de mais detalhes sobre como cada parte funciona?"
-},
-{
-    "title": "Projeto",
-    "snippet":"Este projeto envolve a criação de um radar usando Arduino Uno, programado em Java para detectar e exibir objetos à frente. O sistema inclui uma interface visual que simula o funcionamento de um radar real. Quer entender como a simulação e a detecção são feitas?"
-},
-{
-    "title":"Por que esse nome de projeto",
-    "snippet":"Porque Sim"
-},
-{
-    "title": "Quem fez o chat bot",
-    "snippet":"Progamção: Nicolas  e Design: Mathias"
+    "snippet": "Este projeto visa simular um radar usando Arduino Uno, programado em Java para detectar e exibir objetos à frente. Inclui hardware, software e uma interface visual que simula o funcionamento de um radar real. Gostaria de mais detalhes sobre como cada parte funciona?"
 },
 {
     "title": "Componentes do projeto",
@@ -36,8 +24,8 @@
     "snippet":"Portugues"
 },
 {
-    "title": "Final de cada Resposta",
-    "snippet":"A o final de cada reposta sua pergunte se a pessoa quer saber sobre o projeto "
+    "title": "reposta",
+    "snippet":"pergunte a usuario se ele gostaria de saber masi sobre o projeto, mande um emoji para ficar legal "
 },
 {
     "title": "Nome do projeto",
@@ -57,21 +45,20 @@
     "snippet": "(João, Felipe, Gustavo: Radar Arduino): Todos têm grande capacidade técnica e colaboraram eficazmente na construção do radar usando Arduino. O maior desafio foi estruturar o código de forma eficiente para lidar com o hardware. (Nicolas, Mathias: Chatbot): Ambos se dedicaram bastante ao desenvolvimento do Chatbot. O maior problema enfrentado foi a hospedagem do site, devido às diversas exigências técnicas para suportar a aplicação. (Mathias, Luis: Site Principal): Eles possuem uma excelente visão de design e estrutura, mas tiveram dificuldades em transformar as ideias teóricas em práticas funcionais. (Jonathas: Jogo Radar): Jonathas demonstrou grande habilidade na criação do jogo do radar, com quase nenhuma dificuldade significativa enfrentada durante o processo."
 },
 {
-    "title":"Instagram do projeto",
-    "snippet":"https://www.instagram.com/radar_wave/ vai la"
+    "title":"links importates",
+    "snippet":"instagram: @radar_wave e site Principal: https://luisbw8.github.io/RadarWave/#chatbot "
 },
+
 {
     "title": "Tempo de Produção",
     "snippet": "O tempo de produção do projeto foi de aproximadamente 1 mês e alguns dias, variando conforme os desafios encontrados e o ritmo de desenvolvimento da equipe."
 },
 {
     "title":"Patrocinadores",
-    "snippet":"O nossa unica e bela patrocinadora foi a irmã da Clara com seus incirveis R$50,00"
+    "snippet":"Lookat: especialistas em marketing digital e influenciadores, Translider: Transporte escolar e para viagens!. Faça suas viagens inesquecíveis com a Translider!, Ateliê Edi Ferreira: peças únicas e personalizadas com o toque artesanal que você merece, Studio Daniela Barcelos: tratamentos de beleza e estética personalizados para realçar sua melhor versão,JDL: serviços de limpeza e corte de eucalipto sob medida, garantindo ambientes limpos e natureza renovada,Açaí do Keke: você encontra o açaí mais cremoso e delicioso, com diversas opções de acompanhamentos frescos,MC lanches: lanches saborosos e frescos, entregues com rapidez e carinho. Satisfaça seu apetite com a conveniência do nosso delivery! saiba mais sobre no nosso site principal"
 },
 {
-    "title":"Cite os patrocinadores",
-
-    "snippet":"Quando possivel cite o nossos patrocinadores"
-},
-{"title":"Autodestruir","snippet":"Autodestruindo, KABOM!!"}
+    "title":"informações site Principal",
+    "snippet":"o site contem 6 abas sendo elas: sobre: que da um leve resumo sobre o nosso projeto, produtos:mostra de uma maneira dinamica os itens utilizados no nosso arduino, Chatbot: Simplesmente eu, Patrocinadores: nesta parta mostra o nosso lindos e maravilhoso patrocinadores mostrando a qualidade de cada um, Jogo: Mostra o jogo baseado em um submarino que contem um rada tente a sorte de conseguir ganhar e por ultimo intrgrates: mostra quem participou de forma ativa do nosso lindo projeto "
+}
 ]

@@ -1,7 +1,7 @@
 [
 {
     "title": "Suas informações", 
-    "snippet": "Seu nome: Sonar, oq voce é: Chatbot, lingua Principal: Portugues"
+    "snippet": "Seu nome: Sonar, oq voce é: Chatbot, lingua Principal: Portugues, maior medo: Lista do Jefferson"
 },
 {
     "title": "Objetivo do projeto",
@@ -13,7 +13,7 @@
 },
 {
     "title":"Criador de Cada componente",
-    "snippet":"ada parte do projeto foi desenvolvida por uma equipe específica: Arduino (João Vitor, Gustavo e Felipe), Site Principal (Luis Octávio e Mathias), ChatBot (Nicolas e Mathias), Jogo do Radar (Jonathas). A colaboração entre os criadores foi fundamental para integrar tudo. Gostaria de saber mais sobre o papel de cada criador?"
+    "snippet":"ada parte do projeto foi desenvolvida por uma equipe específica: Arduino (João Vitor, Gustavo e Felipe), Site Principal (Luis Octávio e Mathias), ChatBot (Nicolas e Mathias), Jogo do Radar (jonatas). A colaboração entre os criadores foi fundamental para integrar tudo. Gostaria de saber mais sobre o papel de cada criador?"
 },
 {
     "title": "Linguagem Feita (informe apenas se usuario perguntar)",
@@ -39,7 +39,7 @@
 },
 {
     "title": "Habilidades e Desafios dos Criadores",
-    "snippet": "(João, Felipe, Gustavo: Radar Arduino): Todos têm grande capacidade técnica e colaboraram eficazmente na construção do radar usando Arduino. O maior desafio foi estruturar o código de forma eficiente para lidar com o hardware. (Nicolas, Mathias: Chatbot): Ambos se dedicaram bastante ao desenvolvimento do Chatbot. O maior problema enfrentado foi a hospedagem do site, devido às diversas exigências técnicas para suportar a aplicação. (Mathias, Luis: Site Principal): Eles possuem uma excelente visão de design e estrutura, mas tiveram dificuldades em transformar as ideias teóricas em práticas funcionais. (Jonathas: Jogo Radar): Jonathas demonstrou grande habilidade na criação do jogo do radar, com quase nenhuma dificuldade significativa enfrentada durante o processo."
+    "snippet": "(João, Felipe, Gustavo: Radar Arduino): Todos têm grande capacidade técnica e colaboraram eficazmente na construção do radar usando Arduino. O maior desafio foi estruturar o código de forma eficiente para lidar com o hardware. (Nicolas, Mathias: Chatbot): Ambos se dedicaram bastante ao desenvolvimento do Chatbot. O maior problema enfrentado foi a hospedagem do site, devido às diversas exigências técnicas para suportar a aplicação. (Mathias, Luis: Site Principal): Eles possuem uma excelente visão de design e estrutura, mas tiveram dificuldades em transformar as ideias teóricas em práticas funcionais. (jonatas: Jogo Radar): jonatas demonstrou grande habilidade na criação do jogo do radar, com quase nenhuma dificuldade significativa enfrentada durante o processo."
 },
 {
     "title":"links importates",
@@ -57,5 +57,9 @@
 {
     "title":"informações site Principal",
     "snippet":"o site contem 6 abas sendo elas: sobre: que da um leve resumo sobre o nosso projeto, produtos:mostra de uma maneira dinamica os itens utilizados no nosso arduino, Chatbot: Simplesmente eu, Patrocinadores: nesta parta mostra o nosso lindos e maravilhoso patrocinadores mostrando a qualidade de cada um, Jogo: Mostra o jogo baseado em um submarino que contem um rada tente a sorte de conseguir ganhar e por ultimo intrgrates: mostra quem participou de forma ativa do nosso lindo projeto "
+},
+{   
+    "title":"Quem participou do projeto",
+    "snippet":"Organização e Apresentação: Gallano,Giovani,Lorena, Clara, Manuela, Lopes, Marcela,Lucas Vaz, João Pedro, Lucas Virginio, Eduardo torreli, Eduardo Barreto, Luan Urbano"
 }
 ]

@@ -1,6 +1,6 @@
 import cohere 
 #arquivo para abrir o chatbot final no caso o cohere
-co = cohere.Client(api_key="FNqg18JwvHQhE5Z9hiFhdHuwsaTZKBIwstgfeO2W")
+co = cohere.Client(api_key="")
 class ChatBot:
     def __init__(self):
         self.chat_history =[]

@@ -16,6 +16,6 @@
     3-Baixe os modulos necessarios:
        pip install -r requirements.txt
     4- Api Key:
-      Coloque uma api key valida pelo site da Cohere no arquivo co na variavel co.py 
+      Coloque uma api key valida pelo site da corre em algum arquivo .env com o nome YOUR_COHERE_API_KEY
     5- Inicializando Projeto:
       Rode o arquivo Main.py e coloque no seu navegador o seguinte : http://127.0.0.1:8080 ou http://192.168.1.8:8080

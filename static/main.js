@@ -21,20 +21,23 @@ document.addEventListener("DOMContentLoaded", function() {
     output(msgText);
   });
 
+  // Função que envia a pergunta do usuario para o back-end
   function output(input) {
-    const delay = input.length * 40;
+    const delay = input.length * 20;
     fetch('/home', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
-      body: `entrada=${input}`
+      body: `input_from_user=${input}`
     })
+
+    //espera a resposta da api e converte para json
     .then(response => response.json())
     .then(data => {
-      let product = data;
+      let response_from_cohere = data;
       setTimeout(() => {
-        addChat(BOT_NAME, BOT_IMG, "left", product);
+        addChat(BOT_NAME, BOT_IMG, "left", response_from_cohere);
       }, delay);
     })
     .catch(error => console.error('Erro:', error));

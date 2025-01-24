@@ -2,9 +2,8 @@ from flask import render_template, Flask, request, jsonify
 import cohere_connection.co as co 
 import json;
 chatbot=co.ChatBot()
-#Pega todos os presets do ChatBot
-with open('Presets_to_cohere.json', 'r') as presets_from_json:
-        presets = json.load(presets_from_json)
+
+
 
 app = Flask(__name__)
 
@@ -17,7 +16,7 @@ def index():
 def home():
     #recebe a pergunta do usuario
     input_from_user = request.form['input_from_user']
-    response_from_cohere = chatbot.response_from_cohere(input_from_user,presets)
+    response_from_cohere = chatbot.response_from_cohere(input_from_user)
 
     #retorna para o arquivo static/main.js em formato json
     return jsonify(response_from_cohere)

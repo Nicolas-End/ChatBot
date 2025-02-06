@@ -1,5 +1,7 @@
 # ChatBot Sonar
-
+# Link para acessar na web:
+  https://chat-bot-eosin-three.vercel.app/
+  
 # Descrição:
   Um chatbot que utiliza a API Cohere para gerar respostas a perguntas dos usuários sobre um projeto escolar, implementado em Python com Flask.
 

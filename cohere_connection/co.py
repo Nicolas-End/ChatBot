@@ -4,7 +4,7 @@ import os
 import json
 
 load_dotenv()
-api_key = os.getenv('YOUR_COHERE_API_KEY')
+api_key = os.getenv('COHERE_API_KEY')
 cohere_api = cohere.Client(api_key=api_key)
 
 #Pega todos os presets do ChatBot

@@ -1,8 +1,9 @@
 from flask import render_template, Flask, request, jsonify
 import cohere_connection.co as co 
+import cohere_connection.gemini_response as gemi
 import json;
 chatbot=co.ChatBot()
-
+geminibot = gemi.ChatBot()
 
 
 app = Flask(__name__)
@@ -11,15 +12,14 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-#recebe os dados Do formulario Html
+
 @app.route('/home', methods=['POST'])
 def home():
-    #recebe a pergunta do usuario
+    
     input_from_user = request.form['input_from_user']
-    response_from_cohere = chatbot.response_from_cohere(input_from_user)
+    response_from_gemi = geminibot.ResponseFromGemini(input_from_user)
 
-    #retorna para o arquivo static/main.js em formato json
-    return jsonify(response_from_cohere)
+    return jsonify(response_from_gemi)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)

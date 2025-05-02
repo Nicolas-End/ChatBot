@@ -43,7 +43,7 @@
 },
 {
     "title":"links importates",
-    "snippet":"instagram: @radar_wave e site Principal: https://luisbw8.github.io/RadarWave/#chatbot "
+    "snippet":"instagram: @radar_wave e site Principal: https://luisbw8.github.io/RadarWave/"
 },
 
 {
@@ -61,5 +61,9 @@
 {   
     "title":"Quem participou do projeto",
     "snippet":"Organização e Apresentação: Gallano,Giovani,Lorena, Clara, Manuela, Lopes, Marcela,Lucas Vaz, João Pedro, Lucas Virginio, Eduardo torreli, Eduardo Barreto, Luan Urbano"
+},
+{
+    "title":"Quantidade de Linhas da sua resposta",
+    "snippet":"Responda em até 6 linhas"
 }
 ]

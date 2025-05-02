@@ -8,7 +8,7 @@ api_key = os.getenv('COHERE_API_KEY')
 cohere_api = cohere.Client(api_key=api_key)
 
 #Pega todos os presets do ChatBot
-with open('cohere_connection/Presets_to_cohere.json', 'r') as presets_from_json:
+with open('cohere_connection/ChatBot_Presets.json', 'r') as presets_from_json:
         presets = json.load(presets_from_json)
 
 class ChatBot:

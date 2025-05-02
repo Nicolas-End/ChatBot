@@ -2,6 +2,9 @@
 # Link para acessar na web:
   https://chat-bot-eosin-three.vercel.app/
   
+# Colaboradores:
+  Nicolas-End: Fez o sistema de configuração do chatbot tanto no python quanto no javascript
+  Ferreirar: estilizou a pagina e fez o sistema no javascript para mostrar a resposta do bot no lugar certo
 # Descrição:
   Um chatbot que utiliza a API Cohere para gerar respostas a perguntas dos usuários sobre um projeto escolar, implementado em Python com Flask.
 

@@ -1,0 +1,11 @@
+FROM 3.15.0a3-trixie
+
+WORKDIR /app
+
+COPY . .
+
+RUN pip install requirements.txt
+
+EXPOSE 8080
+
+CMD ["python", "main.py"]

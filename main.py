@@ -17,9 +17,9 @@ def index():
 def home():
     
     input_from_user = request.form['input_from_user']
-    response_from_gemi = geminibot.ResponseFromGemini(input_from_user)
+    response_from_cohere = chatbot.response_from_cohere(input_from_user)
 
-    return jsonify(response_from_gemi)
+    return jsonify(response_from_cohere)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
